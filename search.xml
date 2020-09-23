@@ -1,53 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/09/10/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <title>XCode快捷键</title>
+    <url>/2020/09/22/XCode%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+    <content><![CDATA[<p>最近有幸做IOS开发，在此记录下开发工具的一些便捷使用方法供以后查阅</p>
+<a id="more"></a>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h4 id="一、关于调试和运行"><a href="#一、关于调试和运行" class="headerlink" title="一、关于调试和运行"></a>一、关于调试和运行</h4><ol>
+<li>运行，停止</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Command + R  运行</span><br><span class="line">Command + .  停止</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>F6单步调试、F7跳入，F8继续。</li>
+</ol>
+<h4 id="二、导航"><a href="#二、导航" class="headerlink" title="二、导航"></a>二、导航</h4><ol>
+<li>切换头文件和m.文件，很实用</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Command + control+ 上下箭头键 </span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>回退、前进</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">control+<span class="built_in">command</span>+ 左箭头</span><br><span class="line">control+<span class="built_in">command</span>+ 右箭头</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2020/09/11/test/</url>
-    <content><![CDATA[]]></content>
+<h4 id="三、文件-File"><a href="#三、文件-File" class="headerlink" title="三、文件  File"></a>三、文件  File</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">新建项目 <span class="built_in">command</span>+<span class="built_in">shift</span>+n</span><br><span class="line">新建文件 <span class="built_in">command</span>+n</span><br><span class="line">新建空文件 <span class="built_in">command</span>+control+n</span><br><span class="line">打开 <span class="built_in">command</span>+o</span><br><span class="line">保存 <span class="built_in">command</span>+s</span><br><span class="line">另存为 <span class="built_in">command</span>+<span class="built_in">shift</span>+s</span><br><span class="line">关闭窗口 <span class="built_in">command</span>+w</span><br><span class="line">保存所有文件 <span class="built_in">command</span>+option+s</span><br><span class="line">还原到保存时状态 <span class="built_in">command</span>+u</span><br></pre></td></tr></table></figure>
+
+<h4 id="四、编辑代码"><a href="#四、编辑代码" class="headerlink" title="四、编辑代码"></a>四、编辑代码</h4><ol>
+<li>代码缩进</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">左缩进 <span class="built_in">command</span>+[</span><br><span class="line">右缩进 <span class="built_in">command</span>+]</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>代码编辑</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">control-F: 向右一个字符（forward）</span><br><span class="line">control-B: 向左一个字符（backward）</span><br><span class="line">control-P: 前一行（previous）</span><br><span class="line">control-N: 后一行（next）</span><br><span class="line">control-A: 去行首</span><br><span class="line">control-E: 到行尾（end）</span><br><span class="line">control-T: 调换光标两边的字符（transpose）</span><br><span class="line">control-D: 删除光标右侧字符（delete）</span><br><span class="line">control-K: 删除本行剩余的字符（<span class="built_in">kill</span>）</span><br><span class="line"><span class="built_in">command</span>-/:注释或取消注释</span><br><span class="line">control+.:参数提示</span><br><span class="line">esc:自动提示列表</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>文档内搜索</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Command + F: 搜索</span><br><span class="line">Command + G: 搜索下一处</span><br><span class="line">Shift + Command + G: 搜索上一处</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>调试</li>
+</ol>
+<figure class="highlight objectivec"><table><tr><td class="code"><pre><span class="line"><span class="built_in">CMD</span> + \: 设置或取消断点</span><br><span class="line"><span class="built_in">CMD</span> + OPT + \: 允许或禁用当前断点</span><br><span class="line"><span class="built_in">CMD</span> + OPT + B: 查看全部断点</span><br><span class="line"><span class="built_in">CMD</span> + RETURN: 编译并运行（根据设置决定是否启用断点）</span><br><span class="line"><span class="built_in">CMD</span> + R: 编译并运行（不触发断点）</span><br><span class="line"><span class="built_in">CMD</span> + Y: 编译并调试（触发断点）</span><br><span class="line"><span class="built_in">CMD</span> + SHIFT + RETURN: 终止运行或调试</span><br><span class="line"><span class="built_in">CMD</span> + B: 编译</span><br><span class="line"><span class="built_in">CMD</span> + SHIFT + K: 清理</span><br></pre></td></tr></table></figure>
+
+<ol start="5">
+<li>窗体</li>
+</ol>
+<figure class="highlight objectivec"><table><tr><td class="code"><pre><span class="line"><span class="built_in">CMD</span> + SHIFT + B: 编译窗口</span><br><span class="line"><span class="built_in">CMD</span> + SHIFT + Y: 调试代码窗口</span><br><span class="line"><span class="built_in">CMD</span> + SHIFT + R: 调试控制台</span><br><span class="line"><span class="built_in">CMD</span> + SHIFT + E: 主编辑窗口调整</span><br></pre></td></tr></table></figure>
+
+<ol start="6">
+<li>帮助</li>
+</ol>
+<figure class="highlight objectivec"><table><tr><td class="code"><pre><span class="line"><span class="built_in">CMD</span> + OPT + ?: 开发手册</span><br><span class="line"><span class="built_in">CMD</span> + <span class="built_in">CTRL</span> + ?: 快速帮助</span><br><span class="line">下面也是一些有用的快捷键</span><br><span class="line">Command + Shift + E ：扩展编辑器</span><br><span class="line">Command + [ ：左移代码块</span><br><span class="line">Command + ] ：右移代码块</span><br><span class="line">Tab ：接受代码提示</span><br><span class="line">Esc ：显示代码提示菜单</span><br><span class="line">Ctrl + . （句点）：循环浏览代码提示</span><br><span class="line">Shift + Ctrl + . （句点）：反向循环浏览代码提示</span><br><span class="line">Ctrl + / ：移动到代码提示中的下一个占位符</span><br><span class="line">Command + Ctrl + S ：创建快照</span><br><span class="line">Ctrl + F ：前移光标</span><br><span class="line">Ctrl + B ：后移光标</span><br><span class="line">Ctrl + P ：移动光标到上一行</span><br><span class="line">Ctrl + N：移动光标到下一行</span><br><span class="line">Ctrl + A : 移动光标到本行行首</span><br><span class="line">Ctrl + E : 移动光标到本行行尾 </span><br><span class="line">Ctrl + T ：交换光标左右两边的字符</span><br><span class="line">Ctrl + D：删除光标右边的字符</span><br><span class="line">Ctrl + K ：删除本行</span><br><span class="line">Ctrl + L : 将插入点置于窗口正中</span><br><span class="line">Command + Alt + D：显示open quickly 窗口</span><br><span class="line">Command + Alt + 上方向键 ：打开配套文件</span><br><span class="line">Command + D ：添加书签</span><br><span class="line">Option + 双击：在文档中搜索</span><br><span class="line">Command + Y ：以调试方式运行程序</span><br><span class="line">Command + Alt + P ： 继续（在调试中）</span><br><span class="line">Command + Alt + <span class="number">0</span> ：跳过</span><br><span class="line">Command + Alt + I ：跳入</span><br><span class="line">Command + Alt + T ：跳出</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>IOS</category>
+      </categories>
+      <tags>
+        <tag>IOS开发</tag>
+        <tag>Objective c</tag>
+        <tag>Xcode</tag>
+      </tags>
   </entry>
   <entry>
     <title>测试文</title>
     <url>/2020/09/19/%E6%B5%8B%E8%AF%95%E6%96%87/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gizechhg0ej306l049jt8.jpg" alt="image-20200922140954422"></p>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
-        <tag>java</tag>
+        <tag>Java</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>tests</title>
-    <url>/2020/09/19/tests-1/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>tests</title>
-    <url>/2020/09/19/tests/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
